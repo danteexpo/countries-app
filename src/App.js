@@ -55,7 +55,7 @@ const Home = () => {
 
   return (
     <>
-      <div className='md:flex md:justify-center md:items-center'>
+      <div className='flex flex-col items-center justify-center md:flex-row'>
         <Search search={search} setSearch={setSearch} setApi={setApi} />
         <Filters setApi={setApi}/>
       </div>
